@@ -67,7 +67,7 @@ src="//pagead2.googlesyndication.com/pagead/show_ads.js">
 				case 'ukrposhta': total += 35; break;
 			}
 			// формуємо повідомлення 
-			msg = 'Шановний, ' + first_name + ' ' + father_name + '!<br>Повна вартість Вашого замовлення складає ' + total + ' грн.<br>Дякуємо, що Ви з нами!'
+			msg = 'Шановний, ' + first_name + ' ' + father_name + '!<br>Вартість Вашого замовлення складає ' + total + ' грн.<br>Дякуємо, що Ви з нами!'
 			// та виводимо його в innerHTML (щоб тег BR інтерпретувався як тег, а не як частина тексту)
 			document.getElementById('result').innerHTML = msg
 		}
